@@ -30,8 +30,7 @@ class DaumPostcodeSearch extends StatefulWidget {
   DaumPostcodeSearch({
     Key? key,
     this.webPageTitle = "주소 검색",
-    this.assetPath =
-        "packages/daum_postcode_search/lib/assets/daum_search.html",
+    this.assetPath = "assets/daum_search.html",
     this.onLoadError,
     this.onLoadHttpError,
     this.onProgressChanged,
